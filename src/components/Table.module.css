@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.search{
+    margin: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+
+th, tr{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th{
+    background: #b0e0e6;
+}
