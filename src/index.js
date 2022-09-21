@@ -2,18 +2,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { rerenderTree } from './render';
 import store from './store/store'
-/* const root = ReactDOM.createRoot(document.getElementById('root'));
-export let rerenderTree = () => {
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
-} */
 
 rerenderTree(store);
-
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
