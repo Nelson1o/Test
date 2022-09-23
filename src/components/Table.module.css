@@ -4,27 +4,22 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 100px;
-}
-
-button {
-    margin-left: 10px;
-}
-
-.search{
-    margin: 20px;
+    margin-top: 30px;
 }
 
 table{
     border-collapse: collapse;
-    border: 2px solid white;
-}
-
-th, tr{
-    padding: 10px;
-    border: 1px solid black;
+    border: 2px solid #dddddd;
 }
 
 th{
-    background: #b0e0e6;
+    background: #efefef;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #dddddd;
+}
+
+td{
+    padding: 8px;
+    border: 1px solid #dddddd;
 }
